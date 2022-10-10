@@ -1,0 +1,102 @@
+.trailer,
+.about_movie {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid black 1px;
+  padding: 10px;
+}
+
+.average_grade p {
+  font-size: 2.3rem;
+}
+
+.image {
+  height: 300px;
+  flex-shrink: 1;
+}
+
+.about_movie {
+  justify-content: flex-start;
+}
+
+.about_movie .table {
+  padding: 40px;
+}
+td {
+  padding: 10px;
+}
+
+.content {
+  padding: 15px 10px;
+  border-top: solid black 1px;
+}
+
+.projections {
+  padding: 10px;
+  border-top: solid black 1px;
+}
+
+.comments {
+  padding: 10px;
+  border-top: solid black 1px;
+}
+
+.leave_comment {
+  padding: 10px;
+  border-top: solid black 1px;
+}
+
+.comments_table,
+.table_projection {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+.comments_table td {
+  width: 33%;
+}
+.table_projection td {
+  width: 25%;
+}
+
+tr:hover {
+  background-color: #e3e3e3;
+}
+.comment {
+  padding: 5px;
+  font-size: 20px;
+}
+select {
+  font: 400 20px "PT Sans";
+  padding: 5px;
+  margin: 5px;
+}
+
+.youtube {
+  width: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+
+.main{
+    text-align: center;
+}
+
+.trailer,
+.about_movie {
+  flex-direction: column;
+  flex-wrap: no-wrap;
+}
+
+.youtube iframe{
+  width: 100%;
+}
+
+textarea
+{
+  width: 100%;
+}
+}

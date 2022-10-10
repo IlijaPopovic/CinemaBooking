@@ -1,0 +1,36 @@
+.input {
+  margin: 15px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+}
+.input * {
+  padding: 10px;
+  /*width: 100%*/
+}
+
+.input form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.input form * {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+textarea {
+  resize: none;
+}
+
+
+@media only screen and (max-width: 850px) {
+
+  .input {
+    width: 100%;
+  }
+  
+
+}

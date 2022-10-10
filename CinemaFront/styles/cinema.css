@@ -1,0 +1,54 @@
+.cinema_image {
+  padding: 10px 10px;
+}
+.cinema_image img {
+  width: 1080px;
+  height: auto;
+}
+.information_cinema,
+.cinema_halls,
+.something_about_cinema {
+  padding: 10px 10px;
+  border-top: solid black 1px;
+}
+.seat_image {
+  height: 300px;
+}
+
+.hall {
+  padding: 10px 10px;
+  border-top: solid rgba(0, 0, 0, 0.2) 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information_hall
+{
+  padding-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+
+   .cinema_image img {
+    width: 100%;
+    height: auto;
+  } 
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  .main{
+    text-align: center;
+  }
+
+  .hall{
+    flex-direction: column;
+  }
+
+} 
