@@ -2,7 +2,7 @@
 
 The idea is that users can go to this website on their personal computer, mobile phone, tablet, or any other device and easily book and manage their movie tickets.
 
-MySQL export of database -> "cinemaDB.sql"
+MySQL export of database and data -> "cinemaDB.sql"
 
 On the repertoire page, you can see all movies that are currently screened in cinemas. Clicking on one of them will lead you to its page.
 
